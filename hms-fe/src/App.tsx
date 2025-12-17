@@ -1,6 +1,7 @@
 import './App.css';
 import {Button, createTheme, MantineProvider} from '@mantine/core';
 import '@mantine/core/styles.css';
+import AppRoutes from "./Routes/AppRoutes";
 
 const theme = createTheme({
     focusRing: "never",
@@ -22,12 +23,7 @@ const theme = createTheme({
 function App() {
     return (
         <MantineProvider theme={theme}>
-            <div>
-            <Button variant='gradient'>hi</Button>
-                <span>
-                    a
-                </span>
-            </div>
+            <AppRoutes/>
         </MantineProvider>
     );
 }

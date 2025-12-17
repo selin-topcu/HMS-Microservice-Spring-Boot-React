@@ -1,3 +1,22 @@
+
+### Intellij IDEA React Settings
+* File -> Settings -> Editor -> Live Templates -> React
+    * add rafce
+        ```
+        import React from 'react';
+      
+        const $COMPONENT$ = () => {
+        return (
+        <div>$COMPONENT$</div>
+        );
+        };
+      
+        export default $COMPONENT$;
+        ```
+        * edit variables -> expression -> fileNameWithoutExtension()
+
+* File -> Settings -> Editor -> Code Style -> HTML -> Other ->  Add braces for JSX attributes : Quotes
+
 ### BE
 
 * [Install Spring Boot](https://start.spring.io/)
@@ -160,3 +179,75 @@
   ```
   * Add [icon](https://tabler.io/icons)
     * `npm install @tabler/icons-react`
+  * Add [menu](https://mantine.dev/core/menu/)
+    ```
+    import { Menu, Button, Text } from '@mantine/core';
+    import {
+    IconSettings,
+    IconSearch,
+    IconPhoto,
+    IconMessageCircle,
+    IconTrash,
+    IconArrowsLeftRight,
+    } from '@tabler/icons-react';
+    
+    const ProfileMenu = () => {
+    return (
+    <Menu shadow="md" width={200}>
+    <Menu.Target>
+    <Button>Toggle menu</Button>
+    </Menu.Target>
+
+            <Menu.Dropdown>
+                <Menu.Label>Application</Menu.Label>
+                <Menu.Item leftSection={<IconSettings size={14} />}>
+                    Settings
+                </Menu.Item>
+                <Menu.Item leftSection={<IconMessageCircle size={14} />}>
+                    Messages
+                </Menu.Item>
+                <Menu.Item leftSection={<IconPhoto size={14} />}>
+                    Gallery
+                </Menu.Item>
+                <Menu.Item
+                    leftSection={<IconSearch size={14} />}
+                    rightSection={
+                        <Text size="xs" c="dimmed">
+                            ⌘K
+                        </Text>
+                    }
+                >
+                    Search
+                </Menu.Item>
+
+                <Menu.Divider />
+
+                <Menu.Label>Danger zone</Menu.Label>
+                <Menu.Item
+                    leftSection={<IconArrowsLeftRight size={14} />}
+                >
+                    Transfer my data
+                </Menu.Item>
+                <Menu.Item
+                    color="red"
+                    leftSection={<IconTrash size={14} />}
+                >
+                    Delete my account
+                </Menu.Item>
+            </Menu.Dropdown>
+        </Menu>
+    );
+    }
+    
+    export default ProfileMenu;
+    ```
+    * Add [action icon](https://mantine.dev/core/action-icon/)
+      * ```
+         <ActionIcon variant="transparent" size="xl" aria-label="Settings">
+                <IconLayoutSidebarLeftCollapseFilled style={{ width: '70%', height: '70%' }} stroke={1.5} />
+         </ActionIcon>
+        ```
+    * Add [avatar](https://mantine.dev/core/avatar/)
+      * `<Avatar src="avatar.png" alt="it's me" />`
+
+
