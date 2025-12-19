@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bccb76e-88d5-43a2-acdb-454ff90d5eee" name="Changes" comment="Added user-service">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hms-be/docker/postgresql/docker-compose.yml" afterDir="false" />
+    <list default="true" id="7bccb76e-88d5-43a2-acdb-454ff90d5eee" name="Changes" comment="Added docker postgresql">
       <change afterPath="$PROJECT_DIR$/hms-be/user-service/src/main/java/com/hms/user_service/controller/UserController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/hms-be/user-service/src/main/java/com/hms/user_service/dto/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hms-be/user-service/src/main/java/com/hms/user_service/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-be/user-service/src/main/java/com/hms/user_service/entity/Users.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/hms-be/user-service/src/main/java/com/hms/user_service/exception/HmsException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/hms-be/user-service/src/main/java/com/hms/user_service/repository/UserRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/hms-be/user-service/src/main/java/com/hms/user_service/service/UserService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/hms-be/user-service/src/main/java/com/hms/user_service/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hms-be/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hms-be/user-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +54,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -142,8 +139,20 @@
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
+        <option value="SpringBootApplicationConfigurationType" />
         <option value="js.build_tools.npm" />
       </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="UserServiceApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
   <component name="RunManager">
@@ -210,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766128493881</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added docker postgresql">
+      <option name="closed" value="true" />
+      <created>1766130766226</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1766130766226</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +248,8 @@
     <MESSAGE value="Added Header and Sidebar" />
     <MESSAGE value="Added Login and Register" />
     <MESSAGE value="Added user-service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added user-service" />
+    <MESSAGE value="Added docker postgresql" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added docker postgresql" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
