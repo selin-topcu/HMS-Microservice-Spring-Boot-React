@@ -4,38 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bccb76e-88d5-43a2-acdb-454ff90d5eee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hms-fe/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hms-fe/.idea/copilot.data.migration.agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hms-fe/.idea/copilot.data.migration.ask.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hms-fe/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hms-fe/.idea/copilot.data.migration.edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hms-fe/.idea/hms-fe.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hms-fe/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hms-fe/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hms-fe/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hms-fe/public/avatar_doctor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hms-fe/src/Components/Header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hms-fe/src/Components/Header/ProfileMenu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hms-fe/src/Components/Random.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hms-fe/src/Components/Sidebar/Sidebar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hms-fe/src/Layout/AdminDashboard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hms-fe/src/Routes/AppRoutes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HMS.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="7bccb76e-88d5-43a2-acdb-454ff90d5eee" name="Changes" comment="Added Header and Sidebar">
+      <change afterPath="$PROJECT_DIR$/hms-fe/public/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-fe/src/Pages/LoginPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-fe/src/Pages/RegisterPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hms-fe/hms-fe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hms-fe/hms-fe.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hms-fe/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/hms-fe/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hms-fe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/hms-fe/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hms-fe/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/hms-fe/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hms-fe/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hms-fe/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hms-fe/src/Components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hms-fe/src/Components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hms-fe/src/Routes/AppRoutes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hms-fe/src/Routes/AppRoutes.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +119,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\person\projects\HMS-Microservice-Spring-Boot-React\hms-fe\public" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -207,12 +188,37 @@
       <workItem from="1765445954861" duration="97000" />
       <workItem from="1765446071721" duration="52000" />
       <workItem from="1765446175799" duration="11102000" />
-      <workItem from="1765952466003" duration="4290000" />
+      <workItem from="1765952466003" duration="21522000" />
+      <workItem from="1766126708503" duration="674000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Header and Sidebar">
+      <option name="closed" value="true" />
+      <created>1765957046375</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765957046375</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Header and Sidebar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Header and Sidebar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

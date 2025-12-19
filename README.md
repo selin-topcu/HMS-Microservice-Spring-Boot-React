@@ -250,4 +250,6 @@
     * Add [avatar](https://mantine.dev/core/avatar/)
       * `<Avatar src="avatar.png" alt="it's me" />`
 
-
+* Add [router](https://www.w3schools.com/react/react_router.asp)
+* Add [use-form](https://mantine.dev/form/use-form)
+* Add [segment control](https://mantine.dev/core/segmented-control/)
