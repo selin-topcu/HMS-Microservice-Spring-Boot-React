@@ -17,13 +17,6 @@
 
 * File -> Settings -> Editor -> Code Style -> HTML -> Other ->  Add braces for JSX attributes : Quotes
 
-### BE
-
-* [Install Spring Boot](https://start.spring.io/)
-    * Java 21
-        * Spring Boot DevTools
-        * Spring Web
-        * Spring Data JPA
 
 ### FE
 
@@ -253,3 +246,16 @@
 * Add [router](https://www.w3schools.com/react/react_router.asp)
 * Add [use-form](https://mantine.dev/form/use-form)
 * Add [segment control](https://mantine.dev/core/segmented-control/)
+
+
+### BE - User Service
+
+* [Spring Initializr](https://start.spring.io/)
+    * Java 21
+        * Spring Boot DevTools
+        * Spring Web
+        * Spring Data JPA
+        * Lombok 
+        * Validation 
+        * PostgreSQL Driver
+        * Spring Security

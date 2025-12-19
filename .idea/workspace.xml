@@ -4,14 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bccb76e-88d5-43a2-acdb-454ff90d5eee" name="Changes" comment="Added Header and Sidebar">
-      <change afterPath="$PROJECT_DIR$/hms-fe/public/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hms-fe/src/Pages/LoginPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hms-fe/src/Pages/RegisterPage.tsx" afterDir="false" />
+    <list default="true" id="7bccb76e-88d5-43a2-acdb-454ff90d5eee" name="Changes" comment="Added Login and Register">
+      <change afterPath="$PROJECT_DIR$/hms-be/user-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-be/user-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-be/user-service/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-be/user-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-be/user-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-be/user-service/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-be/user-service/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-be/user-service/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-be/user-service/src/main/java/com/hms/user_service/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-be/user-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hms-be/user-service/src/test/java/com/hms/user_service/UserServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hms-fe/src/Components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hms-fe/src/Components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hms-fe/src/Routes/AppRoutes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hms-fe/src/Routes/AppRoutes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hms-be/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hms-be/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hms-be/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hms-be/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hms-be/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hms-be/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hms-be/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hms-be/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hms-be/src/main/java/com/hms/hms_be/HmsBeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hms-be/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hms-be/src/test/java/com/hms/hms_be/HmsBeApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +46,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/hms-be">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/hms-be/user-service">
       <ProjectState />
     </projectState>
   </component>
@@ -143,11 +165,11 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HmsBeApplication">
-    <configuration name="HmsBeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="hms-be.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hms.hms_be.HmsBeApplication" />
+      <module name="user-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hms.user_service.UserServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -189,7 +211,7 @@
       <workItem from="1765446071721" duration="52000" />
       <workItem from="1765446175799" duration="11102000" />
       <workItem from="1765952466003" duration="21522000" />
-      <workItem from="1766126708503" duration="674000" />
+      <workItem from="1766126708503" duration="1705000" />
     </task>
     <task id="LOCAL-00001" summary="Added Header and Sidebar">
       <option name="closed" value="true" />
@@ -199,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765957046375</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Login and Register">
+      <option name="closed" value="true" />
+      <created>1766127419815</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1766127419815</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +248,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Header and Sidebar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Header and Sidebar" />
+    <MESSAGE value="Added Login and Register" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Login and Register" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

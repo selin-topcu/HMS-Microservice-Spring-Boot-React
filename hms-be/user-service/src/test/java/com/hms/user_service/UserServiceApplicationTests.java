@@ -1,10 +1,10 @@
-package com.hms.hms_be;
+package com.hms.user_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HmsBeApplicationTests {
+class UserServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

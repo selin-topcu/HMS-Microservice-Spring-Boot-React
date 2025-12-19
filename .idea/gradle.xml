@@ -4,11 +4,10 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/hms-be" />
-        <option name="gradleJvm" value="25" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/hms-be/user-service" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/hms-be" />
+            <option value="$PROJECT_DIR$/hms-be/user-service" />
           </set>
         </option>
       </GradleProjectSettings>
