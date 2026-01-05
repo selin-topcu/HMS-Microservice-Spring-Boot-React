@@ -1,0 +1,57 @@
+POST http://localhost:8080/users/register
+Content-Type: application/json
+Content-Length: 87
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=D8BC7CDE794DA5CD597B9089DEB55D80
+
+{
+  "username": "selin",
+  "email": "selin",
+  "password": "123",
+  "role": "PATIENT"
+}
+
+<> 2025-12-25T170638.400.json
+
+###
+
+POST http://localhost:8080/users/register
+Content-Type: application/json
+Content-Length: 87
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=D8BC7CDE794DA5CD597B9089DEB55D80
+
+{
+  "username": "selin",
+  "email": "selin",
+  "password": "123",
+  "role": "PATIENT"
+}
+
+<> 2025-12-25T165523.400.json
+
+###
+
+POST http://localhost:8080/users/register
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie: JSESSIONID=D8BC7CDE794DA5CD597B9089DEB55D80
+content-length: 97
+
+{
+  "username": "selin",
+  "email": "selin@gmail.com",
+  "password": "123",
+  "role": "PATIENT"
+}
+
+<> 2025-12-25T164646.200.html
+
+###
+

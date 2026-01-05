@@ -1,5 +1,7 @@
 package com.hms.user_service.entity;
 
+import com.hms.user_service.dto.Roles;
+import com.hms.user_service.dto.UserDto;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -17,6 +19,11 @@ public class Users {
     @Column(unique = true)
     private String email;
     private String password;
-    private String role; // e.g., ADMIN, DOCTOR, PATIENT
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    private Roles role; // e.g., ADMIN, DOCTOR, PATIENT
 
+    public UserDto toDto() {
+        return new UserDto(this.id, this.username, this.email, this.password, this.role);
+    }
 }

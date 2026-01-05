@@ -1,0 +1,5 @@
+{
+  "message": "Email should be valid, Password must be 8-20 characters long, contain at least one digit, one uppercase letter, one lowercase letter, one special character and have no whitespace",
+  "code": 400,
+  "timestamp": "2025-12-25T17:06:38.6417687"
+}
